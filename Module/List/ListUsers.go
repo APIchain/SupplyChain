@@ -66,19 +66,19 @@ func InitDefaultUserAllDetailDetailList(stub shim.ChaincodeStubInterface) error 
 			return err
 		}
 		DefaultUserAllDetailDetailList[id] = UserDetailinfo
-		if UserDetailinfo.UserBase.IsBanker{
+		if UserDetailinfo.UserBase.IsBanker {
 			DefaultUserBankDetailDetailList[id] = UserDetailinfo
 		}
-		if UserDetailinfo.UserBase.IsSupplyer{
+		if UserDetailinfo.UserBase.IsSupplyer {
 			DefaultUserSupplyerDetailDetailList[id] = UserDetailinfo
 		}
-		if UserDetailinfo.UserBase.IsBuyer{
+		if UserDetailinfo.UserBase.IsBuyer {
 			DefaultUserBuyerDetailDetailList[id] = UserDetailinfo
 		}
-		if UserDetailinfo.UserBase.IsWareHouser{
+		if UserDetailinfo.UserBase.IsWareHouser {
 			DefaultUserWarehouseDetailDetailList[id] = UserDetailinfo
 		}
-		if UserDetailinfo.UserBase.IsLogisticser{
+		if UserDetailinfo.UserBase.IsLogisticser {
 			DefaultUserLogisticsDetailDetailList[id] = UserDetailinfo
 		}
 	}

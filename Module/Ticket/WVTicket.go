@@ -19,20 +19,20 @@ type WVTicket struct {
 	Status           int
 }
 
-func InitWVTicket(stub shim.ChaincodeStubInterface, purchaseOrderID TicketNum, dvTicket TicketNum, totalAmount int64, totalWeight int64) (*WVTicket,error) {
+func InitWVTicket(stub shim.ChaincodeStubInterface, purchaseOrderID TicketNum, dvTicket TicketNum, totalAmount int64, totalWeight int64) (*WVTicket, error) {
 	//TODO:
-	var err	error
+	var err error
 	WV := new(WVTicket)
-	WV.TicketNumber,err = GenTicketNum(stub)
+	WV.TicketNumber, err = GenTicketNum(stub)
 	if err != nil {
-		return nil,err
+		return nil, err
 	}
 	WV.PurchaseOrderID = purchaseOrderID
 	WV.DVTicketID = dvTicket
 	WV.TotalAmount = totalAmount
 	WV.TotalWeight = totalWeight
 
-	return WV,err
+	return WV, err
 }
 
 func GetWVTicketByTicketID(TicketNum TicketNum) (*WVTicket, error) {

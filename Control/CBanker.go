@@ -1,11 +1,11 @@
 package Control
 
 import (
-	. "Gyl/Module/System"
+	"Gyl/Module/List"
 	"Gyl/Module/Roll"
+	. "Gyl/Module/System"
 	"Gyl/Module/Ticket"
 	"github.com/hyperledger/fabric/core/chaincode/shim"
-	"Gyl/Module/List"
 )
 
 type Bank struct {
