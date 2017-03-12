@@ -1,4 +1,4 @@
-# Gyl
+# Supply Chain Demo
 This is a supply chain demo based on fabric v0.61.
 
 This project is still in developing
