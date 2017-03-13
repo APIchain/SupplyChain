@@ -21,7 +21,7 @@ func (t *Chaincode) Initialize(stub shim.ChaincodeStubInterface, function string
 	err = stub.PutState(key, putState_Byte)
 	if err != nil {
 		return nil, err
-	}
+	}saa
 
 	logger.Debugf("[WRITE LEDGER].KEY=[%s],VALUE=[%s]\n", key, string(putState_Byte))
 	err = stub.PutState(key, putState_Byte)
