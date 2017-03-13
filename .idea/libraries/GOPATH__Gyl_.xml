@@ -1,6 +1,14 @@
 <component name="libraryTable">
   <library name="GOPATH &lt;Gyl&gt;">
     <CLASSES>
+      <root url="file://C:/Go/src/unsafe" />
+      <root url="file://C:/Go/src/database" />
+      <root url="file://C:/Go/src/strings" />
+      <root url="file://C:/Go/src/vendor" />
+      <root url="file://C:/Go/src/debug" />
+      <root url="file://C:/Go/src/os" />
+      <root url="file://C:/Go/src/builtin" />
+      <root url="file://C:/Go/src/go" />
       <root url="file://C:/Go/src/plugin" />
       <root url="file://C:/Go/src/bytes" />
       <root url="file://C:/Go/src/time" />
@@ -9,16 +17,14 @@
       <root url="file://C:/Go/src/fmt" />
       <root url="file://C:/Go/src/path" />
       <root url="file://C:/Go/src/reflect" />
-      <root url="file://$PROJECT_DIR$/../golang.org" />
       <root url="file://C:/Go/src/context" />
       <root url="file://C:/Go/src/html" />
       <root url="file://C:/Go/src/text" />
+      <root url="file://C:/Go/src/runtime" />
       <root url="file://C:/Go/src/net" />
       <root url="file://C:/Go/src/image" />
       <root url="file://C:/Go/src/compress" />
-      <root url="file://$PROJECT_DIR$/../github.com" />
       <root url="file://C:/Go/src/io" />
-      <root url="file://$PROJECT_DIR$/../google.golang.org" />
       <root url="file://C:/Go/src/testing" />
       <root url="file://C:/Go/src/index" />
       <root url="file://C:/Go/src/archive" />
@@ -39,18 +45,16 @@
       <root url="file://C:/Go/src/expvar" />
       <root url="file://C:/Go/src/flag" />
       <root url="file://C:/Go/src/log" />
-      <root url="file://C:/Go/src/unsafe" />
-      <root url="file://C:/Go/src/database" />
-      <root url="file://C:/Go/src/strings" />
-      <root url="file://C:/Go/src/vendor" />
-      <root url="file://C:/Go/src/runtime" />
-      <root url="file://C:/Go/src/debug" />
-      <root url="file://$PROJECT_DIR$/../GoOnchain" />
-      <root url="file://C:/Go/src/os" />
-      <root url="file://C:/Go/src/builtin" />
-      <root url="file://C:/Go/src/go" />
     </CLASSES>
     <SOURCES>
+      <root url="file://C:/Go/src/unsafe" />
+      <root url="file://C:/Go/src/database" />
+      <root url="file://C:/Go/src/strings" />
+      <root url="file://C:/Go/src/vendor" />
+      <root url="file://C:/Go/src/debug" />
+      <root url="file://C:/Go/src/os" />
+      <root url="file://C:/Go/src/builtin" />
+      <root url="file://C:/Go/src/go" />
       <root url="file://C:/Go/src/plugin" />
       <root url="file://C:/Go/src/bytes" />
       <root url="file://C:/Go/src/time" />
@@ -59,16 +63,14 @@
       <root url="file://C:/Go/src/fmt" />
       <root url="file://C:/Go/src/path" />
       <root url="file://C:/Go/src/reflect" />
-      <root url="file://$PROJECT_DIR$/../golang.org" />
       <root url="file://C:/Go/src/context" />
       <root url="file://C:/Go/src/html" />
       <root url="file://C:/Go/src/text" />
+      <root url="file://C:/Go/src/runtime" />
       <root url="file://C:/Go/src/net" />
       <root url="file://C:/Go/src/image" />
       <root url="file://C:/Go/src/compress" />
-      <root url="file://$PROJECT_DIR$/../github.com" />
       <root url="file://C:/Go/src/io" />
-      <root url="file://$PROJECT_DIR$/../google.golang.org" />
       <root url="file://C:/Go/src/testing" />
       <root url="file://C:/Go/src/index" />
       <root url="file://C:/Go/src/archive" />
@@ -89,16 +91,6 @@
       <root url="file://C:/Go/src/expvar" />
       <root url="file://C:/Go/src/flag" />
       <root url="file://C:/Go/src/log" />
-      <root url="file://C:/Go/src/unsafe" />
-      <root url="file://C:/Go/src/database" />
-      <root url="file://C:/Go/src/strings" />
-      <root url="file://C:/Go/src/vendor" />
-      <root url="file://C:/Go/src/runtime" />
-      <root url="file://C:/Go/src/debug" />
-      <root url="file://$PROJECT_DIR$/../GoOnchain" />
-      <root url="file://C:/Go/src/os" />
-      <root url="file://C:/Go/src/builtin" />
-      <root url="file://C:/Go/src/go" />
     </SOURCES>
     <excluded>
       <root url="file://$PROJECT_DIR$" />
